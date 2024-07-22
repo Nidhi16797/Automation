@@ -11,7 +11,7 @@ public class login {
     @Given("User is at the login page of the application")
     public void userIsAtTheLoginPageOfTheApplication() {
 //        System.out.println("userIsAtTheLoginPageOfTheApplication");
-        System.out.println("user is on log on page..");
+        System.out.println("user is on log on page....");
     }
 
     @When("User logs in with following username and password")
