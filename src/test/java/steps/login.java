@@ -6,11 +6,14 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 public class login {
+    Logger log=Logger.getLogger("login");
     @Given("User is at the login page of the application")
     public void userIsAtTheLoginPageOfTheApplication() {
 //        System.out.println("userIsAtTheLoginPageOfTheApplication");
+        log.info("user is on login page....");
         System.out.println("user is on log on page....");
     }
 
